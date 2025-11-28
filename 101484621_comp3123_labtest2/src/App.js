@@ -13,9 +13,6 @@ function App() {
   const [error, setError] = useState("");
 
   const API_KEY = process.env.REACT_APP_WEATHER_KEY;
-  console.log("API KEY:", API_KEY);
-
-
 
   const fetchWeather = async () => {
     
